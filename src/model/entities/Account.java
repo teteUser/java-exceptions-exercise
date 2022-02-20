@@ -61,6 +61,7 @@ public class Account {
 
     public void withdraw(double amount) {
         this.balance -= amount;
+        System.out.println("New balance: " + String.format("%.2f", this.balance));
     }
 
 }
